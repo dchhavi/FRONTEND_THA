@@ -1,0 +1,66 @@
+body{
+          background:white;
+          text-align :center;
+
+}
+
+.clock{
+    
+    width: 450px;
+    height: 450px;
+
+    display:inline-flex;
+    border-radius: 500px;
+    border:50px solid red;
+    
+    box-shadow:
+      0 0 0 5px hsl(0, 0%, 90%);
+      
+     
+    }
+
+.sec{
+
+    width:5px;
+    height:215px;
+    background:black;
+    border-radius:10px;
+   
+    position:absolute;
+    left:625px;
+   
+    transform-origin: bottom;
+    transform: rotate(130deg);
+    
+}
+
+.min{
+
+    width:5px;
+    height:215px;
+    background:black;
+    border-radius:10px;
+   
+    position:absolute;
+    left:625px;
+    
+    
+    transform-origin: bottom;
+    transform:rotate(175deg);
+}
+
+.hour{
+
+    width:5px;
+    height:212px;
+    background:black;
+    border-radius:10px;
+  
+    position:absolute;
+    left:625px;
+    
+    
+    transform-origin: bottom;
+    transform: rotate(210deg);
+
+}
