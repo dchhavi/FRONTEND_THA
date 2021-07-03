@@ -1,0 +1,162 @@
+body {
+    font-size:small;
+  
+    text-decoration:black;
+    padding:10px;
+    margin:20px;
+
+    
+
+  background-image: linear-gradient(to right, steelblue ,silver );
+}
+
+
+  
+   
+  .main
+  {
+
+  border-color: red;
+  
+  
+   
+}
+
+.middle_line {
+
+    width:5px;
+    height:650px;
+    background:#191970;
+    border-radius:1px;
+    display:inline-flex;
+    position:absolute;
+    left:625px;
+    top:150px;
+    transform-origin:center;
+   
+    
+}
+
+.left_line {
+
+  width:5px;
+  height:827px;
+  background:#191970;
+  border-radius:1px;
+  display:inline-flex;
+  position:absolute;
+  left:10px;
+  top:15px;
+  transform-origin:center;
+  margin:35px;
+  
+}
+
+.right_line {
+
+  width:5px;
+  height:827px;
+  background:#191970;
+  border-radius:1px;
+  display:inline-flex;
+  position:absolute;
+  right:10px;
+  top:15px;
+  transform-origin:center;
+  margin:35px;
+ 
+  
+}
+
+.bottom_line {
+
+  width:5px;
+  height:1170px;
+  background:#191970;
+  border-radius:1px;
+  display:inline-flex;
+  position:absolute;
+  
+  bottom:0px;
+  top:290px;
+  left:630px;
+  right:130px;
+  margin:0px;
+  transform: rotate(90deg);
+ 
+  
+}
+
+
+
+.phantom
+{
+    text-align: center;
+}
+
+.sde
+{
+    text-align:center;
+    text-align-last:top;
+    top:10px;
+   
+
+}
+
+.flex-container-left 
+{
+   
+        float:left;
+        margin:70px;
+    
+}
+
+.ul {
+    left: 200px;
+}
+
+.flex-container-right 
+{
+   
+        float:right;
+        text-align: left;
+        margin:70px;
+    
+}
+
+h1 {
+    font-family: sans-serif;
+    margin:auto;
+   
+    text-align: center;
+    font-size: 30px;
+    max-width: 1300px;
+    position: relative;
+  }
+
+h1:before {
+    content: "";
+    display: block;
+    width: 386px;
+    height: 5px;
+    background: #191970;
+    left: 10px;
+    right:100px;
+    top: 50%;
+    position: absolute;
+    
+   
+    
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 386px;
+    height: 5px;
+    background: #191970;
+    right: 10px;
+    left:802px;
+    top: 50%;
+    position: absolute;
+  }
+
