@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Whiteboard.css" />
+    <title>Whiteboard</title>
+</head>
+<body>
+    <div class="field">
+        <canvas id="canvas"></canvas>
+        <div class="tools">
+
+            <div id="sassy">
+            <button onClick="undo_last()" type="button" class="button">Undo</button>
+          
+            <button onClick="clear_canvas()" type="button" class="button">Clear</button>
+            </div>
+            <div>
+            <div  onClick="change_color(this)" class="color-field" style="background: red;" ></div>
+            <div onClick="change_color(this)"  class="color-field" style="background: blue;"></div>
+            <div onClick="change_color(this)"  class="color-field" style="background: #23ee34;"></div>
+            <div onClick="change_color(this)"  class="color-field" style="background: yellow;"></div>
+            </div>
+
+            <div>
+            <div onClick="change_color_2(this)"  class="color-field-2" style="background: red;" ></div>
+            <div onClick="change_color_2(this)"  class="color-field-2" style="background: blue;"></div>
+            <div onClick="change_color_2(this)"  class="color-field-2" style="background: #23ee34;"></div>
+            <div onClick="change_color_2(this)"  class="color-field-2" style="background: yellow;"></div>
+            </div>
+
+            <div>
+            <div onClick="change_color_3(this)"  class="color-field-3" style="background: red;" ></div>
+            <div onClick="change_color_3(this)" class="color-field-3" style="background: blue;"></div>
+            <div onClick="change_color_3(this)"  class="color-field-3" style="background: #23ee34;"></div>
+            <div onClick="change_color_3(this)"  class="color-field-3" style="background: yellow;"></div>
+        </div>
+           
+           <div id="sassy-2"> <input onInput="draw_color = this.value" type="color" class="color-picker"></div>
+            <input type="range" min="1" max="100" class="pen-range">
+        </div>
+    </div>
+    <script src="Whiteboard.js"></script>
+</body>
+</html>
